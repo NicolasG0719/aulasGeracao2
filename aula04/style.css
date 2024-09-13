@@ -1,0 +1,21 @@
+
+h1{
+    color: rgb(226, 10, 10);
+    background-color: azure;
+
+    text-align: center;
+    font-size: 36px;
+}
+
+
+body{
+
+    background-color: chartreuse;
+}
+
+form{
+
+    background-color: darkblue;
+}
+
+
