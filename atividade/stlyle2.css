@@ -1,0 +1,132 @@
+
+
+
+header{
+
+    background-color: orangered;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    height: 165px;
+    width: 800px;
+
+    color: white;
+    ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+
+    header nav a{
+
+        text-decoration: none;
+
+
+
+
+    }
+
+
+
+
+
+
+
+main{
+
+text-align: center;
+
+
+}
+
+header a{
+
+    color: white;
+    padding: 6px;
+
+
+}
+.divisao12{
+
+color: black;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+border-radius: 10px;
+    height: 90px;
+    width: 800px;
+    margin: auto;
+    background-color: gainsboro;
+
+
+
+}
+
+.divisao13{
+
+    color: black;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+border-radius: 10px;
+    height: 70px;
+    width: 600px;
+    margin: auto;
+    background-color: gainsboro;
+
+
+
+
+
+}
+
+.divisao14{
+
+
+    color: black;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    border-radius: 10px;
+        height: 70px;
+        width: 600px;
+        margin: auto;
+        background-color: gainsboro;
+    
+
+
+
+
+
+}
+
+.divisao16{
+
+    color: black;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    border-radius: 10px;
+        height: 70px;
+        width: 600px;
+        margin: auto;
+        background-color: gainsboro;
+    
+
+
+
+
+
+
+}
+footer{
+
+text-align: right;
+
+
+
+}
+
+
+
