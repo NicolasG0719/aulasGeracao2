@@ -1,33 +1,31 @@
-*{
-    margin:0 ;
-    padding:0 ;
-
-
+* {
+    margin: 0;
+    padding: 0;
 }
 
-html{
-    width: 100vh;
+html {
+    width: 100vw;
     height: 100vh;
     font-size: 62.5%;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-body{
-
-    background: linear-gradient(rgb(16,16,16,0.5), rgb(25, 25, 25, 0.5)), url(pexels-cottonbro-4489704.jpg);
-    
-
+body {
+    background: linear-gradient(rgb(16, 16, 16, 0.5), rgb(25, 25, 25, 0.5)), url(pexels-cottonbro-4489704.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
 }
-header{
 
+header {
     width: 100%;
-    height: 6vw;
+    height: 7vw;
     background: rgb(199, 183, 1, 0.947);
 }
 
-.manu{
+.menu {
     text-transform: uppercase;
     height: 100%;
     display: flex;
@@ -36,14 +34,84 @@ header{
     font-size: 18px;
 }
 
-
-
-.logo{
-
+.logo {
     font-size: 1.8rem;
     letter-spacing: 0.4rem;
     cursor: pointer;
+}
 
+.menu .lista-menu {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu .lista-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    transition: 2ms ease-in;
+    position: relative;
+}
+
+.menu .lista-menu a::before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    transition: all 1s ease;
 
 
 }
+
+.menu .lista-menu a:hover:before{
+
+    width: 100%;
+    height: 3px;
+    background-color: yellow;
+
+}
+
+main{
+
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gop: 20px;
+
+}
+
+.main-content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 228, 228);
+    font-size: 20px;
+}
+
+footer{
+
+    background-color: black;
+    color: white;
+    padding: 20xp 0;
+    font-size: 1.6rem;
+}
+
+.footer-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1350px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
